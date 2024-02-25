@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(239, 249, 255);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 1rem;
+    color: rgb(174, 52, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    .title {
+        color: rgb(174, 52, 71);
+        font-size: 35px;
+        margin-bottom: 2rem;
+    }
+    .name {
+        width: 12rem;
+        margin-bottom: 2rem;
+        border: dashed pink 1.5px;
+    }
+    .commentForm{
+        width: 20rem;
+        height: 8rem;
+        margin-bottom: 2rem;
+        border: dashed pink 1.5px;
+        color: rgb(174, 52, 71);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .btn {
+        width: 6rem;
+        height: 2rem;
+        border: solid 1px rgb(0, 153, 247);
+        border-radius: 2rem;
+        background-color: pink;
+        cursor: pointer;
+    }
+
+}
